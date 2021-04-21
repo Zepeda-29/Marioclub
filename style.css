@@ -228,10 +228,19 @@ p::selection{
 
     header{
         position: relative;
+        padding-left: 0;
     }
 
     nav{
         top: 0;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    form input{
+        padding: 10px 0 10px 10px;
     }
 
 }
