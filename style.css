@@ -217,7 +217,7 @@ p::selection{
 
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 560px){
 
     nav li{
         font-size: 20px;
@@ -241,6 +241,20 @@ p::selection{
 
     form input{
         padding: 10px 0 10px 10px;
+    }
+
+}
+
+@media screen and (max-width: 350px){
+
+    form input{
+
+        max-width: 100%;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 20px;
+
     }
 
 }
